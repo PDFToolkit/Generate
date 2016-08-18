@@ -1,0 +1,23 @@
+{
+    "name": "pdftoolkit/generate",
+    "description": "Create PDF documents",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roukmoute",
+            "email": "contact@roukmoute.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload":     {
+        "psr-4": {
+            "PDFToolkit\\Generate\\": "src/PDFToolkit/Generate"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
