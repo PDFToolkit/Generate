@@ -11,3 +11,10 @@ services:
       - wwwdata
     working_dir: /var/www/generate
     restart: on-failure
+
+  php-cli:
+    build: ./etc/docker/php-cli
+    volumes_from:
+      - wwwdata
+    restart: on-failure
+    working_dir: /var/www/generate
