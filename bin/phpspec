@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -xeuo pipefail
+
+docker-compose run --user $UID --rm --entrypoint php php-cli vendor/bin/phpspec $@
