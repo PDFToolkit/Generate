@@ -2,3 +2,6 @@ suites:
     default:
         namespace: PDFToolkit\Generate
         psr4_prefix: PDFToolkit\Generate
+
+extensions:
+    Memio\SpecGen\MemioSpecGenExtension: ~
