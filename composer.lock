@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e9c9ce5f2b67d93e30a11f45a27124c5",
-    "content-hash": "8752e1618e181ec5e860157075e8f0d8",
+    "hash": "5b7618eaba3c55898fa5de93371e46ea",
+    "content-hash": "bffe1d2b3131495d4f3c16e4e53147b0",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -72,6 +72,142 @@
                 "iterator"
             ],
             "time": "2015-04-14 22:21:58"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
+                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Inflector\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "inflection",
+                "pluralize",
+                "singularize",
+                "string"
+            ],
+            "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "greg0ire/enum",
+            "version": "v3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/greg0ire/enum.git",
+                "reference": "6cbf65e5df7493ce504e714bf6611c5226a2f494"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/greg0ire/enum/zipball/6cbf65e5df7493ce504e714bf6611c5226a2f494",
+                "reference": "6cbf65e5df7493ce504e714bf6611c5226a2f494",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "^1.0",
+                "php": "^5.6 || ^7.0"
+            },
+            "conflict": {
+                "symfony/form": "<2.7 || >=4.0",
+                "symfony/validator": "<2.7 || >=4.0"
+            },
+            "require-dev": {
+                "matthiasnoback/symfony-dependency-injection-test": "^0.7.6",
+                "phpunit/phpunit": "^4.1",
+                "sllh/php-cs-fixer-styleci-bridge": "^2.0",
+                "symfony/form": "^2.7 || ^3.0",
+                "symfony/framework-bundle": "^2.7 || ^3.0",
+                "symfony/twig-bundle": "^2.7 || ^3.0",
+                "symfony/validator": "^2.7 || ^3.0",
+                "twig/twig": "^1.24"
+            },
+            "suggest": {
+                "symfony/form": "To use enum form type",
+                "symfony/validator": "To use enum validator"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-legacy-stable": "2.x-dev",
+                    "dev-master": "3.x-dev",
+                    "dev-unstable": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Greg0ire\\Enum\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-SA-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Paris",
+                    "email": "postmaster@greg0ire.fr"
+                }
+            ],
+            "description": "work around the missing enum type in php",
+            "keywords": [
+                "enum",
+                "enumeration",
+                "form",
+                "symfony",
+                "validator"
+            ],
+            "time": "2016-06-23 10:40:48"
         }
     ],
     "packages-dev": [
