@@ -17,7 +17,7 @@ class Document
     public function save(string $filename)
     {
         $render = <<<PDF
-%PDF-1.6
+%PDF-1.7
 1 0 obj <</Type /Catalog /Pages 2 0 R>>
 endobj
 2 0 obj <</Type /Pages /Kids [3 0 R] /Count 1>>
